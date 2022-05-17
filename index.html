@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h3>
+		// Hello World <br>
+// import "package:flutter/material.dart";<br>
+
+// void main() {<br>
+//   runApp(App());<br>
+// }
+
+// class App extends StatelessWidget {<br>
+//   Widget build(BuildContext context) {<br>
+//     return MaterialApp(<br>
+//       home: Scaffold(<br>
+//         appBar: AppBar(<br>
+//           title: Text("Hello World Program")<br>
+//           ),<br>
+//         body: Center(<br>
+//           child:Container(<br>
+//           child: Text("Hello World")<br>
+//           ),<br>
+//       )),<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// Hello World Background Color<br>
+// import "package:flutter/material.dart";<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text('Hello World Program')<br>
+//         ),<br>
+//         body:Center(<br>
+//           child: Container(<br>
+//             child:Text("Hello World",style:TextStyle(fontSize: 20))<br>
+//           ),<br>
+//         ),<br>
+//         backgroundColor: Colors.redAccent,<br>
+//       ),<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// Container<br>
+// import "package:flutter/material.dart";<br>
+// import 'package:flutter/rendering.dart';<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text("Container Program"),<br>
+//         ),<br>
+//         body:Center(<br>
+//           child: Container(<br>
+//             child:Center(<br>
+//               child: Text("This is the hello World Program",<br>
+//               style: TextStyle(fontSize: 20),<br>
+//            ),<br>
+//             ),<br>
+//            decoration: BoxDecoration(<br>
+//              borderRadius: BorderRadius.circular(12),<br>
+//              border: Border.all(color:Colors.black),<br>
+//              color:Colors.redAccent<br>
+//            ),<br>
+//            height:300,<br>
+//            width:300<br>
+//           ),<br>
+//         )<br>
+//       )<br>
+//       );<br>
+//   }<br>
+// }<br>
+
+// Row Widget<br>
+// import 'package:flutter/material.dart';<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text("Row Program"),<br>
+//         ),<br>
+//         body:Center(<br>
+//           child: Row(<br>
+//              mainAxisAlignment:MainAxisAlignment.spaceEvenly,<br>
+//             children:[<br>
+//               Container(<br>
+//                 child:Center(child: Text("Rose")),<br>
+//                 color:Colors.redAccent,<br>
+//                 height:50,<br>
+//                 width:80<br>
+//               ),<br>
+//               Container(<br>
+//                 child:Center(child: Text("Jasmine")),<br>
+//                 color:Colors.greenAccent,<br>
+//                 height:50,<br>
+//                 width:80<br>
+//               ),<br>
+//               Container(<br>
+//                 child:Center(child: Text("Lily")),<br>
+//                 color:Colors.yellowAccent,<br>
+//                 height:50,<br>
+//                 width:80<br>
+//               ),<br>
+//             ]<br>
+//           ),<br>
+//         )<br>
+//       )<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// Column Widget<br>
+// import 'package:flutter/material.dart';<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text("Column Program"),<br>
+//         ),<br>
+//         body:Center(<br>
+//           child: Column(<br>
+//              mainAxisAlignment:MainAxisAlignment.spaceEvenly,<br>
+//             children:[<br>
+//               Container(<br>
+//                 child:Center(child: Text("Rose")),<br>
+//                 color:Colors.redAccent,<br>
+//                 height:50,<br>
+//                 width:80<br>
+//               ),<br>
+//               Container(<br>
+//                 child:Center(child: Text("Jasmine")),<br>
+//                 color:Colors.greenAccent,<br>
+//                 height:50,<br>
+//                 width:80<br>
+//               ),<br>
+//               Container(<br>
+//                 child:Center(child: Text("Lily")),<br>
+//                 color:Colors.yellowAccent,<br>
+//                 height:50,<br>
+//                 width:80<br>
+//               ),<br>
+//             ]<br>
+//           ),<br>
+//         )<br>
+//       )<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// FAB<br>
+// import "package:flutter/material.dart";<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text("FAB")<br>
+//         ),<br>
+//         floatingActionButton: FloatingActionButton(onPressed: (){<br>
+//           print("Clicked");<br>
+//         },child:Icon(Icons.add)),<br>
+//       ),<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// Icon Widget<br>
+// import "package:flutter/material.dart";<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text("Icons Program"),<br>
+//         ),<br>
+//         body:Center(<br>
+//           child: Row(<br>
+//             mainAxisAlignment: MainAxisAlignment.spaceEvenly,<br>
+//             children: [<br>
+//               Container(<br>
+//                 child:Icon(Icons.phone)<br>
+//               ),<br>
+//               Container(<br>
+//                 child:Icon(Icons.email)<br>
+//               ),<br>
+//               Container(<br>
+//                 child:Icon(Icons.calendar_today)<br>
+//               ),<br>
+//             ],),<br>
+//         )<br>
+//       ),<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// Image Widget<br>
+// import "package:flutter/material.dart";<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text("Image Program")<br>
+//         ),<br>
+//         body:Image.asset("assets/R.png")<br>
+//       )<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// Stack Widget<br>
+// import "package:flutter/material.dart";<br>
+
+// void main(){<br>
+//   runApp(App());<br>
+// }<br>
+
+// class App extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return MaterialApp(<br>
+//       home:Scaffold(<br>
+//         appBar:AppBar(<br>
+//           title:Text("Stack"),<br>
+//         ),<br>
+//         body:Container(<br>
+//           child:Padding(<br>
+//             padding: const EdgeInsets.all(8.0),<br>
+//             child: Stack(<br>
+//               children:[<br>
+//                 Positioned(<br>
+//                   child: Container(<br>
+//                     height:400,<br>
+//                     width:400,<br>
+//                     color:Colors.redAccent,<br>
+//                   ),<br>
+//                 ),<br>
+//                 Positioned(<br>
+//                   top:50,<br>
+//                   child: Container(<br>
+//                     height:200,<br>
+//                     width:200,<br>
+//                     color:Colors.greenAccent<br>
+//                   ),<br>
+//                 ),<br>
+//                 Container(<br>
+//                   height:100,<br>
+//                   width:100,<br>
+//                   color:Colors.blueAccent<br>
+//                 ),<br>
+//               ]<br>
+//             ),<br>
+//           )<br>
+//         ),<br>
+//       ),<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// Counter app
+// import "package:flutter/material.dart";
+
+// void main(){
+//   runApp(App());
+// }
+
+// class App extends StatefulWidget{
+//   StatefulState createState() {
+//     return StatefulState();
+//   }
+// }
+
+// class StatefulState extends State{
+//   int counter = 0;
+//   Widget build(BuildContext context){
+//     return MaterialApp(
+//       home:Scaffold(
+//         appBar:AppBar(
+//           title:Text("Counter App")
+//         ),
+//         body:Center(
+//           child: Container(
+//             child:Text(counter.toString(),style:TextStyle(fontSize: 50)),
+//           ),
+//         ),
+//         floatingActionButton: FloatingActionButton(
+//           onPressed: (){
+//             setState((){
+//               counter = counter+1;
+//             });
+//           },child:Icon(Icons.add),
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// Form app
+// import "package:flutter/material.dart";
+
+// void main(){
+//   runApp(App());
+// }
+
+// class App extends StatelessWidget{
+//   Widget build(BuildContext context){
+//     return MaterialApp(
+//       home:Scaffold(
+//         appBar:AppBar(
+//           title:Text("Form Program")
+//         ),
+//         body:Column(
+//             mainAxisAlignment: MainAxisAlignment.center,
+//             children: [
+//               Container(
+//                 child:TextFormField(
+//                   keyboardType: TextInputType.text,
+//                   decoration: InputDecoration(
+//                     labelText: "Username",
+//                     hintText: "Eg. saurav",
+//                     icon: Icon(Icons.contact_mail)
+//                   ),
+//                 ),
+//               ),
+//               Container(
+//                 child:TextFormField(
+//                   keyboardType: TextInputType.number,
+//                   decoration: InputDecoration(
+//                     labelText: "Phone",
+//                     hintText: "Eg. 5127412391",
+//                     icon: Icon(Icons.phone)
+//                   ),
+//                 ),
+//               ),
+//               Container(
+//                 child:TextFormField(
+//                   keyboardType: TextInputType.datetime,
+//                   decoration: InputDecoration(
+//                     labelText: "DOB",
+//                     hintText: "Eg. 27/02/2001",
+//                     icon: Icon(Icons.calendar_today)
+//                   ),
+//                 ),
+//               ),
+//             ],
+//           ),
+//       ),
+//     );
+//   }
+// }
+
+// Gesture Widget
+// import "package:flutter/material.dart";
+
+// void main(){
+//   runApp(App());
+// }
+
+// class App extends StatefulWidget{
+//   StatefulState createState(){
+//     return StatefulState();
+//   }
+// }
+
+// class StatefulState extends State{
+//   Widget build(BuildContext context){
+//     return MaterialApp(
+//       home:Scaffold(
+//         appBar:AppBar(
+//           title:Text("Gestures Program")
+//         ),
+//         body: Center(
+//           child: Container(
+//             child:GestureDetector(
+//               onTap:(){
+//                 print("Clicked");
+//               },
+//               child:Container(
+//                 child:Text("Click me")
+//               ) ,)
+//           ),
+//         ),
+//       )
+//     );
+//   }
+// }
+
+// Navigation Widget<br>
+// import "package:flutter/material.dart";<br>
+// import "first_screen.dart";<br>
+
+// void main(){<br>
+//   runApp(MaterialApp(home:FirstScreen()));<br>
+// }<br>
+
+// first_screen.dart<br>
+// import "package:flutter/material.dart";<br>
+// import "second_screen.dart";<br>
+
+// class FirstScreen extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return Scaffold(<br>
+//       appBar:AppBar(<br>
+//         title:Text("First Screen"),<br>
+//       ),<br>
+//       body:Center(<br>
+//         child: Column(<br>
+//           mainAxisAlignment: MainAxisAlignment.center,<br>
+//           children:[<br>
+//             Container(<br>
+//               child: Text("First Screen") ),<br>
+//               RaisedButton(onPressed: (){<br>
+//                 Navigator.push(context, MaterialPageRoute(builder: (context)=> SecondScreen()));<br>
+//               },)<br>
+//           ]<br>
+//         ),<br>
+//       )<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+// second_screen.dart <br>
+// import "package:flutter/material.dart";<br>
+
+// class SecondScreen extends StatelessWidget{<br>
+//   Widget build(BuildContext context){<br>
+//     return Scaffold(<br>
+//       appBar:AppBar(<br>
+//         title:Text("Second Screen"),<br>
+//       ),<br>
+//       body:Center(<br>
+//         child: Column(<br>
+//           mainAxisAlignment: MainAxisAlignment.center,<br>
+//           children:[<br>
+//             Container(<br>
+//               child: Text("Second Screen") ),<br>
+//               RaisedButton(onPressed: (){<br>
+//                 Navigator.pop(context);<br>
+//               },)<br>
+//           ]<br>
+//         ),<br>
+//       )<br>
+//     );<br>
+//   }<br>
+// }<br>
+
+
+import 'package:flutter/material.dart'; 
+import 'package:fl_chart/fl_chart.dart'; 
+
+void main() => runApp(MyApp()); 
+/// This Widget is the main application widget.
+class MyApp extends StatelessWidget { 
+ @override 
+ Widget build(BuildContext context) { 
+ return MaterialApp( 
+ home: HomePage(), 
+ ); 
+ } 
+} 
+class HomePage extends StatelessWidget { 
+ @override 
+ Widget build(BuildContext context) { 
+ return Scaffold( 
+ appBar: AppBar(title: const Text('Flutter Chart Example'), backgroundColor: Colors.green),  body: Center( 
+ child: Column( 
+ mainAxisAlignment: MainAxisAlignment.center, 
+ children: <Widget>[ 
+ Image.network('https://images.unsplash.com/photo-1453728013993- 6d66e9c9123a?ixlib=rb 
+1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=10000'),  Icon(Icons.camera, size: 50, color: Colors.black), 
+ Text( 
+ 'smile please', 
+ style: TextStyle(fontSize: 20.0), 
+ ), //Text
+ LineCharts(), 
+ Padding(padding: const EdgeInsets.all(12.0), child: Text("Traffic Source Chart", style:  TextStyle(fontSize: 20, color: Colors.purple, fontWeight: FontWeight.w700, fontStyle:  FontStyle.italic))), 
+ ], 
+ ), 
+ ), 
+ ); 
+ } 
+} 
+class LineCharts extends StatelessWidget { 
+ @override 
+ Widget build(BuildContext context) { 
+ const cutOffYValue = 0.0; 
+ const yearTextStyle = TextStyle(fontSize: 12, color: Colors.black); 
+ return SizedBox( 
+ width: 260, 
+ height: 150, 
+ child: LineChart( 
+ LineChartData( 
+ lineTouchData: LineTouchData(enabled: false), 
+ lineBarsData: [ 
+ LineChartBarData( 
+ spots: [
+ FlSpot(0, 1), 
+ FlSpot(1, 1), 
+ FlSpot(2, 3), 
+ FlSpot(3, 4), 
+ FlSpot(3, 5), 
+ FlSpot(4, 4) 
+ ], 
+ isCurved: true, 
+ barWidth: 2, 
+ colors: [ 
+ Colors.black, 
+ ], 
+ belowBarData: BarAreaData(  show: true, 
+ colors: [ 
+ Colors.lightBlue.withOpacity(0.5)  ], 
+ cutOffY: cutOffYValue, 
+ applyCutOffY: true, 
+ ), 
+ aboveBarData: BarAreaData(  show: true, 
+ colors: [ 
+ Colors.lightGreen.withOpacity(0.5)
+ ], 
+ cutOffY: cutOffYValue,  applyCutOffY: true,  ), 
+ dotData: FlDotData(  show: false, 
+ ), 
+ ), 
+ ], 
+ minY: 0, 
+ titlesData: FlTitlesData(  bottomTitles: SideTitles(  showTitles: true,  reservedSize: 5, 
+ textStyle: yearTextStyle,  getTitles: (value) {  switch (value.toInt()) {  case 0: 
+ return '2016';  case 1: 
+ return '2017';  case 2: 
+ return '2018';  case 3:
+ return '2019'; 
+ case 4: 
+ return '2020'; 
+ default: 
+ return ''; 
+ } 
+ }), 
+ leftTitles: SideTitles( 
+ showTitles: true, 
+ getTitles: (value) { 
+ return '\$ ${value + 100}'; 
+ }, 
+ ), 
+ ), 
+ axisTitleData: FlAxisTitleData(leftTitle: AxisTitle(showTitle: true, titleText: 'Value', margin: 10),  bottomTitle: AxisTitle(showTitle: true, margin: 10, titleText: 'Year', textStyle: yearTextStyle,  textAlign: TextAlign.right)), 
+ gridData: FlGridData( 
+ show: true, 
+ checkToShowHorizontalLine: (double value) { 
+ return value == 1 || value == 2 || value == 3 || value == 4; 
+ }, 
+ ), 
+ ), 
+ ),
+ ); 
+ } 
+}
+ 
+
+	</h3>
+	
+</body>
+</html>
